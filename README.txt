@@ -8,7 +8,6 @@ The hot degree for a sentence is defined as the number of times a user typed the
 The returned top 3 hot sentences should be sorted by hot degree (The first is the hottest one). If several sentences have the same hot degree, use ASCII-code order (smaller one appears first).
 If less than 3 hot sentences exist, return as many as you can.
 When the input is a special character, it means the sentence ends, and in this case, you need to return an empty list.
-Implement the AutocompleteSystem class:
 
 AutocompleteSystem(String[] sentences, int[] times) Initializes the object with the sentences and times arrays.
 List<String> input(char c) This indicates that the user typed the character c.
