@@ -1,3 +1,5 @@
+#include<bits/stdc++.h>
+using namespace std;
 struct trieNode{
     char data;
     bool we;
@@ -105,3 +107,6 @@ public:
  * AutocompleteSystem* obj = new AutocompleteSystem(sentences, times);
  * vector<string> param_1 = obj->input(c);
  */
+int main(){
+return 1;
+}
