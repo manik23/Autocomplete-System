@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
+
 struct trieNode{
     char data;
     bool we;
